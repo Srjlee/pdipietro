@@ -64,7 +64,7 @@ export default function Navbar() {
             </HStack>
           </HStack>
           <Flex alignItems={'center'}>
-            <Menu>
+            {/* <Menu>
               <MenuButton
                 as={Button}
                 rounded={'full'}
@@ -84,7 +84,7 @@ export default function Navbar() {
                 <MenuDivider />
                 <MenuItem>Link 3</MenuItem>
               </MenuList>
-            </Menu>
+            </Menu> */}
           </Flex>
         </Flex>
 

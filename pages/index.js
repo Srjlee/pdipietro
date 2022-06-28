@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Main from '../Components/Main'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
+import Testimonials from '../Components/Testimonials'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <Navbar/>
         <Main/>
+        <Testimonials/>
       <Footer/>
     </div>
   )

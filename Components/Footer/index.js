@@ -14,7 +14,7 @@ import {
   const Logo = () => {
     return (
       <>
-            <Image src='/logo-sm-solo-fdo-transp-recortada.png'  w={'7rem'}  />
+            <Image src='/perfil.jpg'  w={'7rem'} borderRadius='full'  />
       </>
     );
   };
