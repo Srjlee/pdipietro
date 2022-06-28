@@ -8,7 +8,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaInstagram,  FaMailBulk, FaWhatsapp } from 'react-icons/fa';
+  import { FaInstagram, FaGithub,  FaMailBulk, FaWhatsapp, FaLinkedin } from 'react-icons/fa';
   
   
   const Logo = () => {
@@ -28,8 +28,8 @@ import {
       <chakra.button
         bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
         rounded={'full'}
-        w={8}
-        h={8}
+        w={'3rem'}
+        h={'3rem'}
         cursor={'pointer'}
         as={'a'}
         href={href}
@@ -62,6 +62,12 @@ import {
           <Logo />
           <Text>SI LO PUEDES SOÑAR, LO PUEDES LOGRAR</Text>
           <Stack direction={'row'} spacing={6}>
+            <SocialButton label={'Linkdin'} target="_blank" href={'https://www.linkedin.com/in/pablo-di-pietro-66180925/'}>
+              <FaLinkedin />
+            </SocialButton>
+            <SocialButton label={'GitHub'} target="_blank" href={'https://github.com/Srjlee'}>
+              <FaGithub />
+            </SocialButton>
             <SocialButton label={'Mail'} target="_blank" href={'https://mail.google.com/mail/?view=cm&fs=1&to=pablod.dipietro@gmail.com&su=Vi Tu Portfolio en la web&body=Hola Pablo, vi tu portfolio en internet y me gustaría conversar contigo.'}>
               <FaMailBulk />
             </SocialButton>

@@ -122,8 +122,8 @@ export default function WithSpeechBubbles() {
               src={
                 'https://media-exp2.licdn.com/dms/image/C4D03AQFAiigzwGMECw/profile-displayphoto-shrink_100_100/0/1653030361713?e=1661990400&v=beta&t=d3LhOwVq0HNQRTnvIQT7Lqc_N1oEFLVhL-Gp-KMT2Ek'
               }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
+              name={'Franco Martinez '}
+              title={'Front Developer en MELI'}
             />
           </Testimonial>
           <Testimonial>
@@ -137,8 +137,8 @@ export default function WithSpeechBubbles() {
               src={
                 'https://media-exp2.licdn.com/dms/image/C4D03AQGq3AEFi04zIw/profile-displayphoto-shrink_100_100/0/1636555626733?e=1661990400&v=beta&t=S73R8gFuGf1feM6dks8Ht5Hpo7yjqy_680vfskv3oDA'
               }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
+              name={'Tobias Piraino'}
+              title={'Fullstack Developer'}
             />
           </Testimonial>
         </Stack>
