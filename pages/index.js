@@ -15,7 +15,9 @@ export default function Home() {
         <meta name="description" content="Pablo Di Pietro Fullstack Developer React Node Postrgess Mongo" />
         <link rel="icon" href="/perfil.jpg" />
       </Head>
-      <Navbar/>
+      <Navbar
+        enlaces={[{name:'Proyectos', ir: '/proyectos'} ]}
+      />
         <Main/>
         <Testimonials/>
       <Footer/>

@@ -13,13 +13,14 @@ import {
   MenuItem,
   MenuDivider,
   useDisclosure,
+  
   useColorModeValue,
   Image,
   Stack,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon, ExternalLinkIcon } from '@chakra-ui/icons';
 
-const Links = [{name:'Proyectos', ir: '/proyectos'} ];
+
 
 const NavLink = ({ children }) => (
   <Link
@@ -36,7 +37,7 @@ const NavLink = ({ children }) => (
   </Link>
 );
 
-export default function Navbar() {
+export default function Navbar({enlaces}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
@@ -58,12 +59,16 @@ export default function Navbar() {
               as={'nav'}
               spacing={4}
               display={{ base: 'none', md: 'flex' }}>
-              {Links.map((link) => (
+              {enlaces.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
               ))}
             </HStack>
           </HStack>
           <Flex alignItems={'center'}>
+
+          <Link href='https://drive.google.com/file/d/1IRRer1mfCWRwHQARSMi8Rf3yvhgjIzXU/view?usp=sharing' color='#C8C9D5' isExternal>
+  CV - Download <ExternalLinkIcon mx='2px' />
+</Link>
             {/* <Menu>
               <MenuButton
                 as={Button}
@@ -91,7 +96,7 @@ export default function Navbar() {
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
             <Stack as={'nav'} spacing={4}>
-              {Links.map((link) => (
+              {enlaces.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
               ))}
             </Stack>
