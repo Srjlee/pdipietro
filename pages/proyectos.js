@@ -26,11 +26,18 @@ export default function proyectos() {
     <Proyecto 
     imagen='/pi-dogs.jpg'
     tipo='web'
-    titulo='Bootcamp - PI'
-    detalle='Este proyecto lo hice durante mi aprendizaje en el Bootcamp de "Henry". Puse en práctica lo aprendido. Utilice: Javascript, HTML, CSS, Postrges, Node, React, Redux y Sequelize. No teniamos permitido utilizar librerías de estilo y une consultas a API con el CRUD en DB'
+    titulo='Dogs en React'
+    detalle='Este proyecto es mi Proyecto Individual en el Bootcamp de "Henry". Puse en práctica lo aprendido. Utilice: Javascript, HTML, CSS, Postrges, Node, React, Redux y Sequelize. No teniamos permitido utilizar librerías de estilo y une consultas a API con el CRUD en DB'
     enlace='https://client-srjleedogs.herokuapp.com/'
     />
-    <Proyecto />
+    <Proyecto 
+    imagen='/atoch.jpg'
+    tipo='ecommerce'
+    titulo='Atoch Sanitarios'
+    detalle='Corresponde al Proyecto Grupal del Bootcamp de "Henry". Desarrolle mis habilidades blandas. Utilizamos: Next.Js, Postgres(Migrations), Auth0, Redux, ChakraUI, MercadoPago, Algolia, Tailwind y EmailJs. Utilizamos metodología Scrum y profundizamos el uso de GIT'
+    enlace='https://atoch.herokuapp.com/'
+    
+    />
 
     </Flex>
 

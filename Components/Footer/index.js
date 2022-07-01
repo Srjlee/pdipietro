@@ -33,6 +33,7 @@ import {
         cursor={'pointer'}
         as={'a'}
         href={href}
+        target={"_blank"}
         display={'inline-flex'}
         alignItems={'center'}
         justifyContent={'center'}
@@ -60,19 +61,19 @@ import {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Logo />
-          <Text>SI LO PUEDES SOÑAR, LO PUEDES LOGRAR</Text>
+          <Text>SI LO PUEDES SOÑAR, LO PUEDO LOGRAR</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Linkdin'} target="_blank" href={'https://www.linkedin.com/in/pablo-di-pietro-66180925/'}>
+            <SocialButton label={'Linkdin'}  href={'https://www.linkedin.com/in/pablo-di-pietro-66180925/'}>
               <FaLinkedin />
             </SocialButton>
-            <SocialButton label={'GitHub'} target="_blank" href={'https://github.com/Srjlee'}>
+            <SocialButton label={'GitHub'}  href={'https://github.com/Srjlee'}>
               <FaGithub />
             </SocialButton>
-            <SocialButton label={'Mail'} target="_blank" href={'https://mail.google.com/mail/?view=cm&fs=1&to=pablod.dipietro@gmail.com&su=Vi Tu Portfolio en la web&body=Hola Pablo, vi tu portfolio en internet y me gustaría conversar contigo.'}>
+            <SocialButton label={'Mail'}  href={'https://mail.google.com/mail/?view=cm&fs=1&to=pablod.dipietro@gmail.com&su=Vi Tu Portfolio en la web&body=Hola Pablo, vi tu portfolio en internet y me gustaría conversar contigo.'}>
               <FaMailBulk />
             </SocialButton>
-            <SocialButton label={'FaWhatsapp'}  href={'https://wa.me/5491138805569?text=Hola, vi tu porfolio y me interesa hacerte una propuesta'}>
-              <FaWhatsapp target="_blank"/>
+            <SocialButton  label={'FaWhatsapp'}  href={'https://wa.me/5491138805569?text=Hola, vi tu porfolio y me interesa hacerte una propuesta'}>
+              <FaWhatsapp />
             </SocialButton>
             <SocialButton label={'Instagram'} href={'#'}>
               <FaInstagram />
