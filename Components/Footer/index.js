@@ -75,9 +75,7 @@ import {
             <SocialButton  label={'FaWhatsapp'}  href={'https://wa.me/5491138805569?text=Hola, vi tu porfolio y me interesa hacerte una propuesta'}>
               <FaWhatsapp />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
-              <FaInstagram />
-            </SocialButton>
+           
           </Stack>
         </Container>
       </Box>

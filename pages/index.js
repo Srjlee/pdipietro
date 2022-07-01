@@ -7,9 +7,8 @@ import Footer from '../Components/Footer'
 import Testimonials from '../Components/Testimonials'
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      
+  return (    
+      <>
       <Head>
         <title>Pablo Di Pietro - Developer</title>
         <meta name="description" content="Pablo Di Pietro Fullstack Developer React Node Postrgess Mongo" />
@@ -21,6 +20,6 @@ export default function Home() {
         <Main/>
         <Testimonials/>
       <Footer/>
-    </div>
+      </>
   )
 }
